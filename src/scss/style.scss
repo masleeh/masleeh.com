@@ -1,0 +1,18 @@
+@import './reset';
+@import './fonts';
+@import './roots';
+
+@import '../components/UI/MoveString/MoveString.module.scss';
+
+// Index
+
+@import '../components/Navbar/Navbar.module.scss';
+@import '../components/Index/Header/Header.module.scss';
+@import '../components/Index/AboutMe/AboutMe.module.scss';
+@import '../components/Index/Stack/Stack.module.scss';
+@import '../components/Index/Contact/Contact.module.scss';
+@import '../components/Index/ForHR/ForHR.scss';
+
+// Projects
+
+@import '../components/Projects/ProjectsContainer.module.scss';

@@ -1,0 +1,142 @@
+.about {
+
+    &-aboutme {
+        margin-top: 110px;
+    }
+
+
+
+    &-hi {
+        margin-top: 75px;
+        font-weight: 700;
+        font-size: 90px;
+        line-height: 108px;
+        text-align: right;
+        color: $blue;
+    }
+
+    &-cont {
+        position: relative;
+        margin-top: 30px;
+        margin-bottom: 125px;
+        width: 100%;
+        height: 851px;
+        background-image: url('../../../../public/images/about-back.jpg');
+        @include FlexCenter();
+    }
+
+    
+    &-me {
+        z-index: 4;
+        transform: translateY(400px);
+        
+        &-box {
+            position: absolute;
+            z-index: 0;
+            width: 799px;
+            height: 573px;
+            border: 5px solid $blue;
+            transform: rotate(-18.72deg);
+        }
+
+    }
+
+    .clear {
+        position: absolute;
+        top: 0;
+    }
+
+    .one {
+        z-index: 3;
+        // filter: hue-rotate(90deg);
+        position: absolute;
+        top: 0; 
+        opacity: 0.4;
+        filter: grayscale(0.13) brightness(0.6) invert(0.11) contrast(2.6);
+    }
+
+    .two {
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        opacity: 0.4;
+        filter: grayscale(0.13) brightness(0.6) invert(0.11) contrast(2.6);
+    }
+
+    &-box {
+        padding-top: 25px;
+        width: 764px;
+        height: 357px;
+        background-image: url('../../../../public/images/about-dashcont.svg');
+        margin-left: auto;
+        margin-bottom: 140px;
+        display: grid;
+        grid-template-columns: 83px 682px;
+
+        &-dot {
+            font-weight: 500;
+            font-size: 96px;
+            line-height: 115px;
+            text-align: right;
+            color: $blue;
+        }
+
+        &-title {
+            font-weight: 500;
+            font-size: 49px;
+            line-height: 59px;
+            text-align: right;
+            color: $blue;
+            margin-right: 10px;
+        }
+    }
+
+}
+
+@media (max-width: 800px) {
+    .about-box {
+        background: none;
+        width: 90vw;
+        height: auto;
+        grid-template-columns: 1fr 5fr;
+        margin-bottom: 50px;
+
+        margin-left: 0px;
+
+        &-dot {
+            text-align: start;
+        }
+        &-title {
+            font-size: 32px;
+        }
+    }
+
+    .about-cont {
+        height: 600px;
+        background: none;
+        margin-bottom: 60px;
+    }
+
+    .about-me {
+
+        &-box {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .about-cont {
+        height: 350px;
+    }
+
+    .about-me {
+        transform: none;
+        margin-top: -150px;
+    }
+
+    .about-hi {
+        font-size: 60px;
+        margin-top: 30px;
+    }
+}

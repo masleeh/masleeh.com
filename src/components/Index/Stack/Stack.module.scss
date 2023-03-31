@@ -1,0 +1,115 @@
+.stack {
+    &-move {
+        height: 79px;
+        width: 100%;
+        @include FlexCenter();
+        background-color: $blue;
+        color: white;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        font-family: 'Monument Extended';
+    }
+
+    &-text {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        color: $black;
+        margin-top: 170px;
+        margin-bottom: 155px;
+        max-width: 955px;
+
+    }
+
+    &-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        // grid-row-gap: 50px;
+
+        &-check {
+            grid-row-start: 1;
+            grid-row-end: 14;
+            background-image: url('../../../../public/images/stack.svg');
+            background-repeat: no-repeat;
+            width: 396px;
+            height: 273px;
+            background-position: center;
+            font-family: 'Monument Extended';
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 48px;
+            color: #FFFFFF;
+            padding-top: 65px;
+            padding-left: 92px;
+            cursor: pointer;
+        }
+
+        &-img {
+            align-self: center;
+            justify-self: center;
+            grid-column: 2;
+        }
+
+        &-title {
+            font-family: 'Monument Extended';
+            font-weight: 400;
+            font-size: 45px;
+            line-height: 54px;
+            color: $blue;
+            display: flex;
+            height: 200px;
+            align-items: center;
+        }    
+    }
+
+    &-zebra {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 170px;
+        margin-top: 180px;
+    }
+}
+
+
+@media (max-width: 936px) {
+    .stack {
+        &-text {
+            margin-bottom: 50px;
+        }
+
+        &-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            &-check {
+                display: none;
+                // grid-row-start: 0;
+                // grid-row-end: 0;
+            }
+
+            &-img {
+                grid-column: 1;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .stack {
+        &-grid {
+            grid-template-columns: 1fr 2fr;
+
+            &-title {
+                font-size: 24px;
+                height: 200px;
+            }
+        }
+
+        &-zebra {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    }
+}

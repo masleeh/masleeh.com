@@ -1,0 +1,155 @@
+.header {
+    margin-top: 75px;
+
+    &-title {
+        font-weight: 400;
+        font-family: 'Monument Extended';
+        font-size: 45px;
+        line-height: 54px;
+        color: $blue;
+        transform: translateY(100px);
+        opacity: 0;
+        mix-blend-mode: difference;
+        isolation: auto;
+        z-index: 5;
+    }
+
+    &-sub-title {
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 48px;
+        color: $black;
+        grid-column: 1;
+        margin-top: 115px;
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    &-grid {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-windows {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        margin-top: -60px;
+        transform: translateY(100px);
+        opacity: 0;
+        mix-blend-mode: difference;
+    }
+
+    .window1 {
+        margin-right: -31px;
+        z-index: 1;
+
+        &-header {
+            width: 500px;
+            height: 61px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            background-color: $blue;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        &-body {
+            width: 500px;
+            height: 479px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border: 2px solid $black;
+            @include FlexCenter();
+            background-color: #fff;
+        }
+
+        &-circle-w {
+            width: 20px;
+            height: 20px;
+            background-color: #fff;
+            border-radius: 100%;
+            border: 2px solid $black;
+            margin-right: 8px;
+        }
+        &-circle-b {
+            width: 20px;
+            height: 20px;
+            background-color: $black;
+            border-radius: 100%;
+            margin-right: 31px;
+        }
+
+        &-zebra {
+            z-index: 1;
+        }
+    }
+
+    .window2 {
+        width: 500px;
+        height: 540px;
+        border-radius: 20px;
+        background-color: $blue;
+        margin-right: 125px;
+        margin-top: -479px;
+        z-index: 0;
+    }
+
+    &-scroll {
+        font-family: 'Monument Extended';
+        margin-top: 80px;
+        height: 102px;
+        @include FlexCenter();
+        color: $blue;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 60px;
+        background-image: url("../../../../public/images/scroll-back.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        transform: translateY(100px);
+        opacity: 0;
+    }
+}
+
+
+@media (max-width: 950px) {
+    .header-windows {
+        scale: 0.8;
+    }
+
+    .header {
+        &-sub-title {
+            font-size: 28px;
+            margin-top: 50px;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .header-windows {
+        display: none;
+    }
+
+    .header {
+        &-sub-title {
+            font-size: 40px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        margin-top: 40px;
+
+        &-sub-title {
+            font-size: 40px;
+        }
+
+        &-scroll {
+            display: none;
+        }
+    }
+}

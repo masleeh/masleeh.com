@@ -1,0 +1,37 @@
+.hr {
+
+    &-title {
+        font-family: 'Monument Extended';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 115px;
+        margin-left: -102px;
+        margin-top: 200px;
+        color: $blue;
+        margin-bottom: 39px;
+    }
+
+    &-text {
+        max-width: 1120px;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 58px;
+        margin-bottom: 89px;
+
+        a {
+            color: $blue;
+        }
+
+        &:last-child {
+            margin-bottom: 270px;
+        }
+    }
+}
+
+@media (max-width: 520px) {
+    .hr-title {
+        font-size: 45px;
+        margin-left: 0;
+    }
+}

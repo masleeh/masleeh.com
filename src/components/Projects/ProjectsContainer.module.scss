@@ -1,0 +1,130 @@
+.proj-container {
+    cursor: pointer;
+    padding-left: 5vw;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: 0;  
+}
+
+.proj {
+    padding: 20px 0;
+    // margin: 0;
+    position: relative;
+    height: 217px;
+    
+
+    &-title {
+        color: $black;
+        font-family: 'Monument Extended';
+        font-weight: 400;
+        font-size: 90px;
+        line-height: 77px;
+        padding: 50px 0;
+        color: $black;
+
+        &.clone {
+            position: absolute;
+            top: 15px;
+            pointer-events: none;
+            color: $blue;
+            clip-path: inset(0 100% 0 0);
+            transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+
+        }
+        
+        &:not(.clone) {
+           &:hover {
+            cursor: pointer;
+
+            ~.clone {
+                clip-path: inset(0 0 0 0);
+            }
+           } 
+        }
+    }
+
+    &-img {
+        position: fixed;
+        z-index: 3;
+        left: 45vw;
+        top: 30vh;
+        width: auto;
+        min-height: 200px;
+        max-height: 20vw;
+        height: 20vw;
+        pointer-events: none;
+        object-fit: cover;
+        transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1)
+        // opacity: 0;
+    }
+
+    &-info {
+        opacity: 0;
+        z-index: 4;
+        position: fixed;
+        transform: translateY(-50%);
+        font-size: 24px;
+        font-weight: 400;
+        top: 50%;
+        // text-align: end;
+        right: 4vw;
+        text-align: left;
+        transition: all 0.25s ease-in-out;
+        overflow: hidden;
+
+        &-title {
+            font-size: 24px;
+            font-weight: 500;
+            margin-top: 60vh;
+
+        }
+
+        &-stack {
+            text-align: end;
+            margin-bottom: 10px;
+        }
+
+    }
+}
+
+
+.active {
+    opacity: 1;
+}
+
+.go-home {
+    z-index: 6;
+    position: fixed;
+    top: 20px;
+    right: 4vw;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 20px 0px 20px 20px;
+}
+
+
+
+@media (max-width: 720px) {
+    .proj-title {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 450px) {
+    .proj-img {
+        display: none;
+    }
+    .proj-title {
+        font-size: 28px;
+    }
+
+    .proj-info {
+        display: none;
+    }
+}
