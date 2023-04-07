@@ -144,6 +144,11 @@
     .header {
         margin-top: 40px;
 
+        &-title {
+            mix-blend-mode:normal;
+            isolation: unset;
+        }
+
         &-sub-title {
             font-size: 40px;
         }

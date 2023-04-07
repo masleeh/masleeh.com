@@ -31,7 +31,7 @@ const InfiniteScrollCont = () => {
         <div ref={scrollRef} className="proj-container">
                 {projItems.map((project, index) => {
                     return <ProjectContainer key={index} title={project.title} image={project.image}
-                        stack={project.stack} description={project.description}
+                        stack={project.stack} description={project.description} link={project.link}
                     />
                 })}
         </div>

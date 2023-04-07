@@ -21,5 +21,6 @@ export interface IProjs {
     title: string,
     description: string,
     stack: string[],
-    image: string
+    image: string,
+    link: string
 }

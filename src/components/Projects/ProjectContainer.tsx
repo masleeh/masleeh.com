@@ -3,6 +3,7 @@ import { IProjs } from "@/types/projects"
 import { useReducer, useRef } from "react"
 import ProjImage from "./ProjImage"
 import ProjTitle from "./ProjTitle"
+import Link from "next/link"
 
 const initialState = {
   opacity: 0,
@@ -55,7 +56,7 @@ function reducer(state: any, action: any) {
   }
 }
 
-const ProjectContainer:React.FC<IProjs> = ({title, description, image, stack}) => {
+const ProjectContainer:React.FC<IProjs> = ({title, description, image, stack, link}) => {
 
   const listItem = useRef<HTMLDivElement>(null)
   const [state, dispatch] = useReducer(reducer, initialState)
@@ -134,6 +135,7 @@ const ProjectContainer:React.FC<IProjs> = ({title, description, image, stack}) =
   }
 
   return (
+  <Link href={link} target="_blank">
     <div className="proj" ref={listItem}>
         <ProjTitle title={title} handleMouseEnter={handleMouseEnter} handleMouseLeave={handleMouseLeave}/>
         <ProjImage 
@@ -153,6 +155,7 @@ const ProjectContainer:React.FC<IProjs> = ({title, description, image, stack}) =
             <p className="proj-info-title">{description}</p>
         </div>
     </div>
+  </Link>
   )
 }
 

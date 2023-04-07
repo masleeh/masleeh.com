@@ -49,8 +49,6 @@ const Stack:React.FC<IStack> = ({stackRef, goToProjects}) => {
                     <h2 className="stack-grid-title">Express</h2>
 
                 </div>
-
-                <img className="stack-zebra" alt="" src="images/zebra.svg"/>
             </div>
         </section>
     )

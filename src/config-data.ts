@@ -8,7 +8,8 @@ export const projData = [
             "Node.js Express API",
             "Atlas Cloud MongoDB"
         ],
-        description: "Landing page for book called Kurs"
+        description: "Landing page for book called Kurs",
+        link: "https://github.com/masleeh/kursbook-website"
     },
     {
         title: "Vaffel",
@@ -19,7 +20,8 @@ export const projData = [
             "Redux Toolkit",
             "SCSS"
         ],
-        description: "Landing page for Vaffel"
+        description: "Landing page for Vaffel",
+        link: ""
     },
     {
         title: "Vaffel Menu",
@@ -31,7 +33,8 @@ export const projData = [
             "Node.js Express API",
             "MySQL Database"
         ],
-        description: "Menu manager for Vaffel website"
+        description: "Menu manager for Vaffel website",
+        link: "https://github.com/masleeh/Vaffel-Menu-Manager"
     },
     {
         title: "Kurs Orders",
@@ -41,7 +44,8 @@ export const projData = [
             "TypeScript",
             "SCSS"
         ],
-        description: "Order manager for Kurs Book website"
+        description: "Order manager for Kurs Book website",
+        link: "https://github.com/masleeh/Kurs-Book-Orders-Manager"
     },
     {
         title: "Messenger",
@@ -53,7 +57,8 @@ export const projData = [
             "SCSS",
             "Socket.IO"
         ],
-        description: "Small messenger based on Socket.IO"
+        description: "Small messenger based on Socket.IO",
+        link: ""
     },
     {
         title: "Kurs Book",
@@ -64,7 +69,8 @@ export const projData = [
             "Node.js Express API",
             "Atlas Cloud MongoDB"
         ],
-        description: "Landing page for book called Kurs"
+        description: "Landing page for book called Kurs",
+        link: "https://github.com/masleeh/kursbook-website"
     },
     {
         title: "Vaffel",
@@ -75,7 +81,8 @@ export const projData = [
             "Redux Toolkit",
             "SCSS"
         ],
-        description: "Landing page for Vaffel"
+        description: "Landing page for Vaffel",
+        link: ''
     },
     {
         title: "Vaffel Menu",
@@ -87,7 +94,8 @@ export const projData = [
             "Node.js Express API",
             "MySQL Database"
         ],
-        description: "Menu manager for Vaffel website"
+        description: "Menu manager for Vaffel website",
+        link: "https://github.com/masleeh/Vaffel-Menu-Manager"
     },
     {
         title: "Kurs Orders",
@@ -97,7 +105,8 @@ export const projData = [
             "TypeScript",
             "SCSS"
         ],
-        description: "Order manager for Kurs Book website"
+        description: "Order manager for Kurs Book website",
+        link: "https://github.com/masleeh/Kurs-Book-Orders-Manager"
     },
     {
         title: "Messenger",
@@ -110,7 +119,8 @@ export const projData = [
             "Socket.IO",
             "MySQL database"
         ],
-        description: "Small messenger based on Socket.IO"
+        description: "Small messenger based on Socket.IO",
+        link: ""
     },
     {
         title: "Kurs Book",
@@ -121,7 +131,8 @@ export const projData = [
             "Node.js Express API",
             "Atlas Cloud MongoDB"
         ],
-        description: "Landing page for book called Kurs"
+        description: "Landing page for book called Kurs",
+        link: "https://github.com/masleeh/kursbook-website"
     },
     {
         title: "Vaffel",
@@ -132,7 +143,8 @@ export const projData = [
             "Redux Toolkit",
             "SCSS"
         ],
-        description: "Landing page for Vaffel"
+        description: "Landing page for Vaffel",
+        link: ""
     },
     {
         title: "Vaffel Menu",
@@ -144,7 +156,8 @@ export const projData = [
             "Node.js Express API",
             "MySQL Database"
         ],
-        description: "Menu manager for Vaffel website"
+        description: "Menu manager for Vaffel website",
+        link: "https://github.com/masleeh/Vaffel-Menu-Manager"
     },
     {
         title: "Kurs Orders",
@@ -155,7 +168,8 @@ export const projData = [
             "SCSS",
             "Atlas MongoDB"
         ],
-        description: "Order manager for Kurs Book website"
+        description: "Order manager for Kurs Book website",
+        link: "https://github.com/masleeh/Kurs-Book-Orders-Manager"
     },
     {
         title: "Messenger",
@@ -167,6 +181,7 @@ export const projData = [
             "SCSS",
             "Socket.IO"
         ],
-        description: "Small messenger based on Socket.IO"
+        description: "Small messenger based on Socket.IO",
+        link: ""
     },
 ]
