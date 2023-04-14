@@ -12,16 +12,16 @@ export const projData = [
         link: "https://github.com/masleeh/kursbook-website"
     },
     {
-        title: "Vaffel",
-        image: "/images/projects/vaffel.png",
+        title: "Avito Test",
+        image: "/images/projects/avito.png",
         stack: [
-            "Next.js framework",
+            "React.js framework",
             "TypeScript",
-            "Redux Toolkit",
+            "Redux / Redux Saga",
             "SCSS"
         ],
-        description: "Landing page for Vaffel",
-        link: ""
+        description: "Avito Internship frontend test",
+        link: "https://github.com/masleeh/AvitoInternshipTestV1"
     },
     {
         title: "Vaffel Menu",
@@ -73,16 +73,16 @@ export const projData = [
         link: "https://github.com/masleeh/kursbook-website"
     },
     {
-        title: "Vaffel",
-        image: "/images/projects/vaffel.png",
+        title: "Avito Test",
+        image: "/images/projects/avito.png",
         stack: [
-            "Next.js framework",
+            "React.js framework",
             "TypeScript",
-            "Redux Toolkit",
+            "Redux / Redux Saga",
             "SCSS"
         ],
-        description: "Landing page for Vaffel",
-        link: ''
+        description: "Avito Internship frontend test",
+        link: "https://github.com/masleeh/AvitoInternshipTestV1"
     },
     {
         title: "Vaffel Menu",
@@ -135,16 +135,16 @@ export const projData = [
         link: "https://github.com/masleeh/kursbook-website"
     },
     {
-        title: "Vaffel",
-        image: "/images/projects/vaffel.png",
+        title: "Avito Test",
+        image: "/images/projects/avito.png",
         stack: [
-            "Next.js framework",
+            "React.js framework",
             "TypeScript",
-            "Redux Toolkit",
+            "Redux / Redux Saga",
             "SCSS"
         ],
-        description: "Landing page for Vaffel",
-        link: ""
+        description: "Avito Internship frontend test",
+        link: "https://github.com/masleeh/AvitoInternshipTestV1"
     },
     {
         title: "Vaffel Menu",
