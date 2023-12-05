@@ -21,7 +21,7 @@ const Header:React.FC<IHeader> = ({headerRef}) => {
                                 <div className="window1-circle-b"></div>
                             </div>
                             <div className="window1-body">
-                                <img src="masleeh.com/images/zebra.svg" alt="" className="window1-zebra"/>
+                                <img src="images/zebra.svg" alt="" className="window1-zebra"/>
                             </div>
                         </div>
 
