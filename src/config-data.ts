@@ -1,7 +1,7 @@
 export const projData = [
     {
         title: "Kurs Book",
-        image: "/images/projects/kurs.jpg",
+        image: "images/projects/kurs.jpg",
         stack: [
             "HTML/CSS",
             "Vanilla JavaScript",
@@ -13,7 +13,7 @@ export const projData = [
     },
     {
         title: "Avito Test",
-        image: "/images/projects/avito.png",
+        image: "images/projects/avito.png",
         stack: [
             "React.js framework",
             "TypeScript",
@@ -25,7 +25,7 @@ export const projData = [
     },
     {
         title: "Vaffel Menu",
-        image: "/images/projects/vaffela.jpg",
+        image: "images/projects/vaffela.jpg",
         stack: [
             "React.js framework",
             "TypeScript",
@@ -38,7 +38,7 @@ export const projData = [
     },
     {
         title: "Kurs Orders",
-        image: "/images/projects/kursm.jpg",
+        image: "images/projects/kursm.jpg",
         stack: [
             "React.js framework",
             "TypeScript",
@@ -49,7 +49,7 @@ export const projData = [
     },
     {
         title: "Messenger",
-        image: "/images/projects/messenger.jpg",
+        image: "images/projects/messenger.jpg",
         stack: [
             "React.js framework",
             "Redux Toolkit",
@@ -62,7 +62,7 @@ export const projData = [
     },
     {
         title: "Kurs Book",
-        image: "/images/projects/kurs.jpg",
+        image: "images/projects/kurs.jpg",
         stack: [
             "HTML/CSS",
             "Vanilla JavaScript",
@@ -74,7 +74,7 @@ export const projData = [
     },
     {
         title: "Avito Test",
-        image: "/images/projects/avito.png",
+        image: "images/projects/avito.png",
         stack: [
             "React.js framework",
             "TypeScript",
@@ -86,7 +86,7 @@ export const projData = [
     },
     {
         title: "Vaffel Menu",
-        image: "/images/projects/vaffela.jpg",
+        image: "images/projects/vaffela.jpg",
         stack: [
             "React.js framework",
             "TypeScript",
@@ -99,7 +99,7 @@ export const projData = [
     },
     {
         title: "Kurs Orders",
-        image: "/images/projects/kursm.jpg",
+        image: "images/projects/kursm.jpg",
         stack: [
             "React.js framework",
             "TypeScript",
@@ -110,7 +110,7 @@ export const projData = [
     },
     {
         title: "Messenger",
-        image: "/images/projects/messenger.jpg",
+        image: "images/projects/messenger.jpg",
         stack: [
             "React.js framework",
             "Redux Toolkit",
@@ -124,7 +124,7 @@ export const projData = [
     },
     {
         title: "Kurs Book",
-        image: "/images/projects/kurs.jpg",
+        image: "images/projects/kurs.jpg",
         stack: [
             "HTML/CSS",
             "Vanilla JavaScript",
@@ -136,7 +136,7 @@ export const projData = [
     },
     {
         title: "Avito Test",
-        image: "/images/projects/avito.png",
+        image: "images/projects/avito.png",
         stack: [
             "React.js framework",
             "TypeScript",
@@ -148,7 +148,7 @@ export const projData = [
     },
     {
         title: "Vaffel Menu",
-        image: "/images/projects/vaffela.jpg",
+        image: "images/projects/vaffela.jpg",
         stack: [
             "React.js framework",
             "TypeScript",
@@ -161,7 +161,7 @@ export const projData = [
     },
     {
         title: "Kurs Orders",
-        image: "/images/projects/kursm.jpg",
+        image: "images/projects/kursm.jpg",
         stack: [
             "React.js framework",
             "TypeScript",
@@ -173,7 +173,7 @@ export const projData = [
     },
     {
         title: "Messenger",
-        image: "/images/projects/messenger.jpg",
+        image: "images/projects/messenger.jpg",
         stack: [
             "React.js framework",
             "Redux Toolkit",
