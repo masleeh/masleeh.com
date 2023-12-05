@@ -12,40 +12,40 @@ const Stack:React.FC<IStack> = ({stackRef, goToProjects}) => {
                 <div className="stack-grid">
                     <div className="stack-grid-check" onClick={() => goToProjects()}>check <br /> my <br />projects</div>
 
-                    <img className="stack-grid-img" alt="" src="/images/stack/html.svg"/>
+                    <img className="stack-grid-img" alt="" src="images/stack/html.svg"/>
                     <h2 className="stack-grid-title">HTML5</h2>
 
-                    <img className="stack-grid-img" alt="" src="/images/stack/css.svg"/>
+                    <img className="stack-grid-img" alt="" src="images/stack/css.svg"/>
                     <h2 className="stack-grid-title">CSS3</h2>
 
-                    <img className="stack-grid-img" alt="" src="/images/stack/js.svg"/>
+                    <img className="stack-grid-img" alt="" src="images/stack/js.svg"/>
                     <h2 className="stack-grid-title">JavaScript</h2>
 
-                    <img className="stack-grid-img" alt="" src="/images/stack/ts.svg"/>
+                    <img className="stack-grid-img" alt="" src="images/stack/ts.svg"/>
                     <h2 className="stack-grid-title">TypeScript</h2>
 
-                    <img className="stack-grid-img" alt="" src="/images/stack/react.svg"/>
+                    <img className="stack-grid-img" alt="" src="images/stack/react.svg"/>
                     <h2 className="stack-grid-title">React.js</h2>
 
-                    <img className="stack-grid-img" alt="" src="/images/stack/sass.svg"/>
+                    <img className="stack-grid-img" alt="" src="images/stack/sass.svg"/>
                     <h2 className="stack-grid-title">SCSS</h2>
 
-                    <img className="stack-grid-img" alt="" src="/images/stack/node.svg"/>
+                    <img className="stack-grid-img" alt="" src="images/stack/node.svg"/>
                     <h2 className="stack-grid-title">Node.js</h2>
 
-                    <img className="stack-grid-img" alt="" src="/images/stack/next.svg"/>
+                    <img className="stack-grid-img" alt="" src="images/stack/next.svg"/>
                     <h2 className="stack-grid-title">Next.js</h2>
 
-                    <img className="stack-grid-img" alt="" src="/images/stack/sql.svg"/>
+                    <img className="stack-grid-img" alt="" src="images/stack/sql.svg"/>
                     <h2 className="stack-grid-title">MySQL</h2>
 
-                    <img className="stack-grid-img" alt="" src="/images/stack/nest.svg"/>
+                    <img className="stack-grid-img" alt="" src="images/stack/nest.svg"/>
                     <h2 className="stack-grid-title">Nest.js</h2>
 
-                    <img className="stack-grid-img" alt="" src="/images/stack/mongo.svg"/>
+                    <img className="stack-grid-img" alt="" src="images/stack/mongo.svg"/>
                     <h2 className="stack-grid-title">MongoDB</h2>
 
-                    <img className="stack-grid-img" alt="" src="/images/stack/express.svg"/>
+                    <img className="stack-grid-img" alt="" src="images/stack/express.svg"/>
                     <h2 className="stack-grid-title">Express</h2>
 
                 </div>

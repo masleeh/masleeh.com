@@ -5,13 +5,13 @@ const AboutMe:React.FC<IAbout> = ({aboutRef}) => {
         <section className="about" ref={aboutRef}>
             <div className="container">
 
-                <img className="about-aboutme" alt="" src="/images/about.jpg"/>
+                <img className="about-aboutme" alt="" src="images/about.jpg"/>
                 <h1 className="about-hi">Hi, I’m Matvey  </h1>
 
                 <div className="about-cont">
-                    <img alt="" className="about-me clear" src="/images/me.jpg"/>
-                    <img alt="" className="about-me one" src="/images/me-red.jpg"/>
-                    <img alt="" className="about-me two" src="/images/me-blue.jpg"/>
+                    <img alt="" className="about-me clear" src="images/me.jpg"/>
+                    <img alt="" className="about-me one" src="images/me-red.jpg"/>
+                    <img alt="" className="about-me two" src="images/me-blue.jpg"/>
                     <div className="about-me-box"></div>
                 </div>
 
